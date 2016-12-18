@@ -1,0 +1,4 @@
+PhoneIntent my phone number is {PhoneNumber}
+
+EmailIntent my email is {Alias} at {Domain} dot {TLD}
+EmailIntent my email is {Alias} at {CustomDomain} dot {TLD}

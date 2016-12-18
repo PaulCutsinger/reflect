@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "PhoneIntent",
+      "slots": [
+        { "name": "PhoneNumber", "type": "AMAZON.Number"}
+      ]
+    },
+    {
+      "intent": "EmailIntent",
+      "slots": [
+        { "name": "Alias", "type": "ALIAS"},
+        { "name": "CustomDomain", "type": "ALIAS"},
+        { "name": "Domain", "type": "DOMAIN"},
+        { "name": "TLD", "type": "TLD"}
+      ]
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
